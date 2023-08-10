@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  height: 30px;
+  padding: 0px 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input[type="checkbox"]{
+  width: auto;
+  height: auto;
+}
+button{
+  padding: 20px 30px;
 }
